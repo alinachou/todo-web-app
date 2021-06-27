@@ -1,2 +1,2 @@
 FLASK_APP=todoapp
-FLASK_ENV=developmentcd
+FLASK_ENV=development
