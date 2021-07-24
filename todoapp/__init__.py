@@ -5,7 +5,7 @@ from .extensions import mongo
 
 def create_app():
     app = Flask(__name__)
-    app.config['MONGO_URI'] = 'mongodb+srv://Alina:3Ow5bRmPKvEgFyq6@cluster0.mtagi.mongodb.net/mydb?retryWrites=true&w=majority'
+    app.config['MONGO_URI'] = ''    # Removed personal MongoDB URI
 
     mongo.init_app(app)
 
